@@ -1,0 +1,24 @@
+import csv
+import random
+
+def lista_empleados():
+    trabajadores=[]
+
+
+def datos_sueldos():
+    Sueldo_alto={}
+    Sueldo_bajo={}
+    Promedio={}
+    Media_geometrica={}
+
+def descuentos_salud():
+    descuentosalud= sueldo * 0.07
+    print(descuentosalud)
+
+def descuento_AFP():
+    descuentoafp = sueldo * 0.12
+    print(descuentoafp)
+
+def sueldo_liquido():
+    sueldoliquido = (descuentoafp + descuentosalud) - sueldobase 
+
