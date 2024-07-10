@@ -1,0 +1,56 @@
+import funciones as fn
+
+#Lista
+trabajadores = [
+                "Juan Pérez", 
+                "María García", 
+                "Carlos López", 
+                "Ana Martínez",
+                "Pedro Rodríguez",
+                "Laura Hernández",
+                "MiguelSánchez",
+                "Isabel Gómez",
+                "Francisco Díaz",
+                "Elena Fernández"]
+#Diccionario
+trabajadoresdic = {
+
+} 
+
+#Menu
+print("1-Asignar sueldo aleatorio")
+print("2-Clasificar sueldos")
+print("3-Ver estadisticas")
+print("4-Reporte de sueldo")
+print("5-Salir del programa")
+
+op=0
+
+while True :
+
+    op = (int(input("Ingrese una opcion")))
+
+    if op == 1:
+        print("Asignando sueldo aleatorio")
+        print("")
+    elif op == 2:
+        print("Clasificando sueldos")
+        print("")
+    elif op == 3:
+        print("Mostrando estadisticas")
+        print("")
+    elif op == 4:
+        print("Mostrando reportes de sueldos")
+        print("")
+    elif op == 5:
+        print("Saliendo del programa")
+        print("Desarrollado por Daniel Araya")
+        print("20.521.921-8") 
+        break 
+    else:
+        print("Ingrese una opcion valida")
+
+
+    
+
+    
